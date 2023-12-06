@@ -1,0 +1,10 @@
+POST http://localhost:8080/messages
+Content-Type: application/json
+
+{
+  "message": "How are you?"
+}
+
+###
+
+GET http://localhost:8080/messages
