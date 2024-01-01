@@ -1,4 +1,20 @@
-.parcel-cache/
-dist/
+# .gitignore
+
+# Node.js dependencies
 node_modules/
+
+# Parcel cache
+.parcel-cache/
+
+# Build output
+dist/
+
+# macOS system files
 .DS_Store
+
+# Environment variables file
+.env
+
+# IDE specific files
+.idea/
+.vscode/
